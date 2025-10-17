@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.waper {
+    width: 100%;
+    margin: auto;
+    border: 1px solid #ccc;
+}
+
+.banner img {
+    display: block;
+}
+
+.menu {
+    background-color: #7f8c8d;
+    height: 45px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 12px 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    background-color: #27ae60;
+}
+
+/* ======= CHIA 3 CỘT ======= */
+.conten {
+    display: flex;
+    background-color: #fff;
+}
+
+.left {
+    width: 25%;
+    background-color: #407f3b;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.left ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.left ul li {
+    border-bottom: 1px solid #d4b483;
+}
+
+.left ul li a {
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+    color: #fff; /* chữ trắng */
+    font-weight: 700; /* đậm hơn */
+    font-size: 17px;  /* to hơn tí */
+    letter-spacing: 0.6px;
+    transition: all 0.3s ease;
+}
+
+/* Hover cho đẹp */
+.left ul li a:hover {
+    background-color: #d4b483;
+    color: #000;
+    padding-left: 20px; /* chữ nhích qua phải nhẹ */
+    border-radius: 4px;
+}
+
+.left p {
+    background-color: #ec616b;
+    color: #fff;
+    padding: 12px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 19px;
+    letter-spacing: 1px;
+    border-radius: 6px 6px 0 0;
+    text-transform: uppercase;
+    box-shadow: inset 0 -2px 4px rgba(0,0,0,0.15);
+}
+
+
+
+/* Cột giữa */
+.khungchinh {
+    width: 70%;
+    padding: 10px;
+}
+
+ .danhsachall ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.danhsachall ul li {
+    border: 1px solid #ccc;
+    width: 180px;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+}
+
+.danhsachall ul li img {
+    width: 150px;
+    height: 180px;
+}
+
+/* Cột phải */
+.right {
+    width: 25%;
+    background-color: #407f3b;
+    padding: 5px;
+    color: white;
+}
+
+.right input[type=text], 
+.right input[type=password] {
+    width: 120px;
+    margin: 3px 0;
+}
+
+.right input[type=submit] {
+    width: 165px;
+    background: #27ae60;
+    border: none;
+    color: white;
+    
+}
+
+/* Footer */
+.footer {
+    clear: both;
+    background-color: #27ae60;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+}
